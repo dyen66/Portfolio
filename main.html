@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Data Analyst Portfolio</title>
+
+<!--
+  ============================================================
+  HOW TO EDIT THIS TEMPLATE
+  ============================================================
+  1. Search this file for "EDIT ME" comments — those mark text
+     you should personalize (name, tagline, bio, links).
+  2. Open script.js. Two arrays — PROJECTS and EXPERIENCE —
+     control everything in those sections. Add, remove, or edit
+     objects in those arrays and the page rebuilds itself. No
+     HTML editing needed there.
+  3. SKILLS chips are a simple list at the top of script.js.
+  4. Colors and fonts are set as CSS variables at the top of
+     style.css if you want to adjust the palette.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="nav-mark">david<span>.</span>csv</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">data analyst / data science student</div>
+    <!-- EDIT ME: your name -->
+    <h1 class="name">David Yen</h1>
+    <!-- EDIT ME: one-line tagline -->
+    <p class="tagline">I turn messy data into decisions — SQL, Python, and a bit of stubbornness about clean pipelines.</p>
+
+    <div class="query-box" id="queryBox"></div>
+
+    <div class="hero-links">
+      <!-- EDIT ME: point these at your real files/profiles -->
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn ghost" href="resume.pdf">Resume</a>
+      <a class="btn ghost" href="https://github.com/dyen66/" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/david-yen66/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head"><span class="section-index">01</span><h2>About</h2></div>
+    <div class="about-grid">
+      <div class="about-bio">
+        <!-- EDIT ME: 2 short paragraphs about you -->
+        <p>I'm a data science student who likes finding the story a dataset is trying to tell — usually somewhere between a messy CSV and a dashboard nobody trusts yet. I work mostly in SQL and Python, and I care more about whether an analysis is right than whether it's pretty.</p>
+        <p>Outside of coursework, I build small end-to-end projects to practice the parts that don't show up in class: cleaning ugly real-world data, picking the right model for the question, and explaining results to someone who doesn't want to see your code.</p>
+      </div>
+      <div class="stat-list">
+        <!-- EDIT ME: swap in real numbers or remove rows you don't want -->
+        <div class="stat"><span class="label">Projects shipped</span><span class="value">00</span></div>
+        <div class="stat"><span class="label">Years with SQL</span><span class="value">00</span></div>
+        <div class="stat"><span class="label">Go-to language</span><span class="value">Python</span></div>
+        <div class="stat"><span class="label">Currently learning</span><span class="value">—</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head"><span class="section-index">02</span><h2>Skills</h2></div>
+    <div id="skillsMount"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head"><span class="section-index">03</span><h2>Projects</h2></div>
+    <div id="projectsMount"></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head"><span class="section-index">04</span><h2>Experience</h2></div>
+    <div class="timeline" id="experienceMount"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head"><span class="section-index">05</span><h2>Contact</h2></div>
+    <!-- EDIT ME -->
+    <p style="max-width: 52ch; color:#333;">Open to data analyst / data engineering roles and internships. Best way to reach me is email — I'll usually reply within a day or two.</p>
+    <div class="contact-row">
+      <a class="btn primary" href="mailto:you@example.com">you@example.com</a>
+      <a class="btn ghost" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn ghost" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="resume.pdf">Resume (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<footer>site last updated — update this date when you edit</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
